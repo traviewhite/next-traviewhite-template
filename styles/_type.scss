@@ -1,0 +1,82 @@
+h1 {
+  color: $-navy-200;
+  font-family: $fontStackSans;
+  font-weight: 800;
+  font-size: 4rem;
+  @include media('<desktopLg') {
+    font-size: 3.75rem;
+  }
+  @include media('<desktop') {
+    font-size: 3.5rem;
+  }
+  @include media('<tablet') {
+    font-size: 3.25rem;
+  }
+  @include media('<=phoneLg') {
+    font-size: 3rem;
+  }
+}
+h2 {
+  color: $-navy-100;
+  font-family: $fontStackSans;
+  font-weight: 800;
+  font-size: 3.5em;
+  @include media('<desktopLg') {
+    font-size: 3.25rem;
+  }
+  @include media('<desktop') {
+    font-size: 3rem;
+  }
+  @include media('<tablet') {
+    font-size: 2.75rem;
+  }
+  @include media('<=phoneLg') {
+    font-size: 2.5rem;
+  }
+}
+h3 {
+  color: $-navy-100;
+  font-family: $fontStackSans;
+  font-weight: 700;
+  font-size: 2.5rem;
+  @include media('<desktopLg') {
+    font-size: 2.5rem;
+  }
+  @include media('<desktop') {
+    font-size: 2.25rem;
+  }
+  @include media('<tablet') {
+    font-size: 2rem;
+  }
+  @include media('<=phoneLg') {
+    font-size: 1.75rem;
+  }
+}
+h4 {
+  color: $-navy-100;
+  font-family: $fontStackSans;
+  font-weight: 600;
+  font-size: 2.5em;
+  @include media('<desktopLg') {
+    font-size: 2.25rem;
+  }
+  @include media('<desktop') {
+    font-size: 2rem;
+  }
+  @include media('<tablet') {
+    font-size: 1.75rem;
+  }
+  @include media('<=phoneLg') {
+    font-size: 1.5rem;
+  }
+}
+p {
+  color: $-gray-200;
+  font-family: $fontStackSans;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  @include media('<=phoneLg') {
+    font-size: 0.8rem;
+  }
+}
