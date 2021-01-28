@@ -1,7 +1,7 @@
 {
   "name": "next-traviewhite-template",
   "version": "0.1.0",
-  "description": "",
+  "description": "An opinionated boilerplate to kickstart projects using Next.js",
   "main": "index.js",
   "private": true,
   "scripts": {
