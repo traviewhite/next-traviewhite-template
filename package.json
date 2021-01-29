@@ -1,9 +1,13 @@
 {
   "name": "next-traviewhite-template",
-  "version": "0.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "An opinionated boilerplate to kickstart projects using Next.js",
   "main": "index.js",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/traviewhite/next-traviewhite-template"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
