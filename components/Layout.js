@@ -20,9 +20,9 @@ const variant = {
 const Layout = ({ children }) => {
   return (
     <motion.div className='container'>
-      <motion.div initial='initial' animate='enter' exit='exit' variants={variant}>
+      <motion.main initial='initial' animate='enter' exit='exit' variants={variant}>
         {children}
-      </motion.div>
+      </motion.main>
       <footer>
         <p>
           © {new Date().getFullYear()} {user}
